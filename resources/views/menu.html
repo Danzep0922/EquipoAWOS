@@ -1,0 +1,53 @@
+<?php include 'conexion.php';?>
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+<!-- Bootstrap core CSS -->
+<link href="dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Custom styles for this template -->
+<link href="assets/css/sticky-footer-navbar.css" rel="stylesheet">
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css" />
+
+
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="bienvenida.php">SDI</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Inicio
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="mision.php"><i class="fa fa-feather-alt"></i> Misión</a>
+                      <a class="dropdown-item" href="vision.php"><i class="fa fa-eye"></i> Visión</a>
+                      <a class="dropdown-item" href="valores.php"><i class="fa fa-people-carry"></i> Valores</a>
+                      <a class="dropdown-item" href="objetivos.php"><i class="fa fa-clipboard-list"></i> Obejtivos</a>
+                      <a class="dropdown-item" href="quienes_somos.php"><i class="fa fa-award"></i> ¿Quienes Somos?</a>
+                    </div>
+                </li>
+                <a class="nav-link" href="catalogo.php"><i class="fa fa-layer-group"></i> Catálogo</a>
+                <a class="nav-link" href="redes_sociales.php"><i class="fa fa-eye"></i> Redes Sociales</a>
+            </ul>
+                  
+                        <form method="get" action="http://localhost/phpmyadmin/sql.php?server=1&db=proyectob&table=busqueda&pos=0" target="_blank">
+                          <input type="search" name="q" placeholder="Término a buscar" autofocus required>
+                          <input type="submit"> 
+                          </form></div>
+                    <form class="form-inline my-2 my-lg-0">
+                        <a class="nav-link" href="terminar_sesion.php"><i class="fa fa-sign-out-alt"></i> Terminar sesión</a>
+       
+                </nav>
+</body>
+    </html>
+   
